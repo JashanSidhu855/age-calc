@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main-component{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 79%);
+}
+.container{
+    width: 70%;
+    height: 70%;
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+label{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 10px;
+    color: hsl(0, 1%, 44%);
+    font-weight: 700;
+}
+input{
+    height: 2.5rem;
+    width: 6rem;
+    margin: 0 12px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+hr{
+    margin: 16px 5px;
+}
+.btn{
+    border-radius: 90%;
+    background-color: hsl(259, 100%, 65%);
+    position: relative;
+    top: 45px;
+    border: hsl(259, 100%, 65%);
+}
+.btn img{
+    width: 70%;
+    position: relative;
+    top: 5%;
+}
+.content{
+    background-color: white;
+    padding: 26px;
+    border-radius: 30px;
+}
+.age-display{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 10px 10px;
+    justify-content: center;
+}
+.purple{
+    color: hsl(259, 100%, 65%);
+}
